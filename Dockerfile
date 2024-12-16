@@ -33,7 +33,7 @@ RUN apt-get install -y \
     zsh \
     zsh-syntax-highlighting
 
-COPY init.sh /root/init.sh
+COPY init.zsh /root/init.zsh
 COPY zshrc_part1 /root/.zshrc_part1
 COPY zshrc_init /root/.zshrc_init
 COPY zsh_aliases /root/.zsh_aliases

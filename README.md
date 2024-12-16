@@ -25,4 +25,11 @@ Based on Debian 12, this image comes with a pre-configured `zsh` setup, includin
 $ docker run -it --rm ghcr.io/simonneutert/shell-curry-debian-12-example:main
 ```
 
-Inside Docker/zsh you can now type `bat GET_STARTED.md` and complete the setup process.
+Inside Docker/zsh you can now type `batcat GET_STARTED.md` and complete the setup process. \
+*(After having run the init.zsh script, batcat will be available as `bat`.)*
+
+#### Setup process inside the dockered zsh
+
+1. `$ zsh init.zsh` and confirm with `y`
+2. `$ source .zshrc`
+3. `$ bat ./.zsh_aliases` and off you go

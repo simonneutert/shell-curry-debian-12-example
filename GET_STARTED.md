@@ -2,9 +2,9 @@
 
 You are two tiny steps away from running your fancy zsh experience.
 
-1. `$ zsh init.sh` and confirm with `y`
+1. `$ zsh init.zsh` and confirm with `y`
 2. `$ source .zshrc`
-3. `$ bat GET_STARTED.md` and off you go
+3. `$ bat ./.zsh_aliases` and off you go
 
 That's it! You are ready to go.
 
