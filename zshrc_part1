@@ -1,0 +1,15 @@
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory
+setopt extendedhistory
+setopt hist_ignore_dups
+setopt hist_ignore_space
+setopt autocd
+
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit && compinit
+eval "$(starship init zsh)"
+source "/root/.asdf/asdf.sh"

@@ -1,0 +1,7 @@
+alias cd="z"
+alias ls='lsd'
+alias bat='batcat'
+alias top='btop'
+alias htop='btop' # if you are muscle memory bound to htop
+alias du='duc'
+alias df='duf'
